@@ -16,3 +16,22 @@ git commit -m "comment"
 
 git status			！！get the status of files and which files are ready for commiting
 git diff fileName		！！check the changes with the file
+
+
+git log
+git log --pretty=oneline	！！every log with one line
+
+
+HEAD 	！！current version
+HEAD^	！！last version
+HEAD^^	！！last two version
+´´
+HEAD~n	！！last n version
+
+git reset --hard HEAD^
+
+
+cat fileName			！！check the content of the file
+
+
+
