@@ -1,37 +1,51 @@
-git config --global user.name "name"
-git config --global user.email "email"
+1.config
+	git config --global user.name "name"
+	git config --global user.email "email"
 
 
-mkdir directoryName
-cd directoryName
-pwd				！！get current path
+2.derecotory
+	mkdir directoryName
+	cd directoryName
+	pwd				！！get current path
 
 
-git init
+3.initilize
+	git init
 
 
-git add add.txt			！！add the file to the list waiting for commiting
-git commit -m "comment"
+4.commit
+	git add add.txt			！！add the file to the list waiting for commiting
+	git commit -m "comment"
 
 
-git status			！！get the status of files and which files are ready for commiting
-git diff fileName		！！check the changes with the file
+5.defference
+	git status			！！get the status of files and which files are ready for commiting
+	git diff fileName		！！check the changes with the file
+	git diff HEAD -- readme.txt	！！check the differences between workBench and versionRepository
 
 
-git log
-git log --pretty=oneline	！！every log with one line
+6.logs
+	git log
+	git log --pretty=oneline	！！every log with one line
+	git reflog			！！find all operation containing commitId
 
 
+7.version
 HEAD 	！！current version
 HEAD^	！！last version
 HEAD^^	！！last two version
 ´´
 HEAD~n	！！last n version
 
-git reset --hard HEAD^
+	git reset --hard HEAD^		！！rollback
+
+	git reset --hard commitId	！！jump to a certain version by commitId, before or after
 
 
-cat fileName			！！check the content of the file
+8.file content
+	cat fileName			！！check the content of the file
 
 
-
+9.
+	q				！！when you are in a status cannot edit, enter q will exit
+	h				！！when you are in a status cannot edit, enter h will show all commonds
