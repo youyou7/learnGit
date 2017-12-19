@@ -49,3 +49,8 @@ HEAD~n	！！last n version
 9.
 	q				！！when you are in a status cannot edit, enter q will exit
 	h				！！when you are in a status cannot edit, enter h will show all commonds
+
+
+10.git checkout -- add.txt		！！give up the changes in workbench, back to the latest "git add" or "git commit"
+
+
