@@ -18,7 +18,7 @@
 	git commit -m "comment"
 
 
-5.defference
+5.difference
 	git status			！！get the status of files and which files are ready for commiting
 	git diff file			！！check the changes with the file
 	git diff HEAD -- file		！！check the differences between workbench and versionRepository(tempStorage)
