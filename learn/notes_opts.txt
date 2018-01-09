@@ -28,6 +28,7 @@
 	git log
 	git log --pretty=oneline	！！every log with one line
 	git reflog			！！find all operation containing commitId
+	git log --graph			！！show the branches merge info
 
 
 7.version
