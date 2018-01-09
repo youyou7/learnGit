@@ -13,3 +13,5 @@ Branch(分支)
 4 合并分支	git merge <name>	合并指定分支到当前分支
 
 5 删除分支	git branch -d <name>
+
+6 解决冲突
