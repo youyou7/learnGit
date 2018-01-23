@@ -41,4 +41,8 @@
 	（2）git stash list	查看所有储存的工作现场
 	（3）git stash pop	恢复工作现场，同时删除了储存的工作现场
 	     git stash apply stash@{0}	恢复指定的工作现场
->>>>>>> dev
+
+
+9 feature分支
+	添加新功能时，不能因为一些实验性质的代码，把主分支搞乱了，所以，每添加一个新功能，最好新建一个feature分支，开发完成后，合并并删除该feature分支。① 创建并切换到feature分支，② 添加新功能并提交，③ 合并工作分支与feature分支，若此时不需要这个新功能，则直接强行删除分支
+	（1）git branch -D <branch>	强行删除未合并的分支
