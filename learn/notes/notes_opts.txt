@@ -3,7 +3,7 @@
 	git config --global user.email "email"
 
 
-2 derecotory
+2 direcotory
 	mkdir directory
 	cd directory
 	pwd				¡ª¡ªget current path
