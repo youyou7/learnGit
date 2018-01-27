@@ -1,6 +1,7 @@
 1 config
-	git config --global user.name "name"
-	git config --global user.email "email"
+	设置用户名：	git config --global user.name "name"
+	设置邮箱：	git config --global user.email "email"
+	命令显示颜色：	git config --global color.ui true	
 
 
 2 direcotory
