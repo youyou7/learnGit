@@ -37,12 +37,12 @@
 2 创建git用户		sudo adduser git
 
 3 创建证书登录		
-	人数少：将所有需要登录的用户的公钥导入到/home/git/.ssh.suthorized_keys文件中，一行一个
+	人数少：将所有需要登录的用户的公钥导入到/home/git/.ssh/authorized_keys文件中，一行一个
 	人数多：用Gitosis管理公钥
 
 4 初始化Git仓库
 	① 选定一个目录作为Git仓库,并在目录下执行该命令	sudo git init --bare learngit.git
-	② 把owner改为git	sudo chown -R git:git learngit.git
+	② 把owner改为git	
 
 5 禁用shell登录
 	找到/etc/passwd文件，并找到一行:
